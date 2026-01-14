@@ -12,12 +12,10 @@ class ReverseGenerator:
         self.edges = []
 
     def scan(self):
-        """扫描文件，分析依赖关系，并应用网格布局。"""
+        """扫描文件，分析依赖关系，并应用业务逻辑分层排列。"""
         exclude_dirs = {'.git', '.venv', 'venv', '__pycache__', '.pytest_cache', 'dist', 'build'}
         
         file_to_id = {}
-        
-        # 1. 第一遍扫描：建立文件索引
         all_files = []
         for root, dirs, files in os.walk(self.root_dir):
             dirs[:] = [d for d in dirs if d not in exclude_dirs]
@@ -27,51 +25,108 @@ class ReverseGenerator:
                     rel_path = os.path.relpath(full_path, self.root_dir).replace("\\", "/")
                     all_files.append((file, rel_path, full_path))
 
-        # 2. 自动网格布局参数
-        cols = 4  # 每行显示4个方块
-        spacing_x = 400
-        spacing_y = 300
-        
-        for i, (file, rel_path, full_path) in enumerate(all_files):
-            node_id = rel_path.replace("/", "_")
-            file_to_id[rel_path] = node_id
-            
-            responsibility = self._get_docstring(full_path)
-            
-            # 计算网格坐标
-            row = i // cols
-            col = i % cols
-            
-            self.nodes.append({
-                "id": node_id,
-                "type": "text",
-                "text": f"{file}\n{rel_path}\n\n{responsibility}",
-                "x": col * spacing_x,
-                "y": row * spacing_y,
-                "width": 320,
-                "height": 180,
-                "color": self._get_color(file)
-            })
+        # 1. 业务逻辑分层分类
+        layers = {
+            "entry": [],      # 入口层 (红)
+            "core": [],       # 核心中枢 (黄)
+            "service": [],    # 业务服务 (黄)
+            "infra": [],      # 基础设施/工具 (橙)
+            "other": []       # 其他
+        }
 
-        # 3. 第二遍扫描：建立连线
+        for file_info in all_files:
+            file, rel_path, _ = file_info
+            if "main" in file or "app.py" in file:
+                layers["entry"].append(file_info)
+            elif "core" in rel_path or "engine" in rel_path:
+                layers["core"].append(file_info)
+            elif "service" in rel_path or "logic" in rel_path:
+                layers["service"].append(file_info)
+            elif "utils" in rel_path or "infra" in rel_path or "client" in rel_path:
+                layers["infra"].append(file_info)
+            else:
+                layers["other"].append(file_info)
+
+        # 2. 纵向分层排列 (Y轴代表架构深度)
+        layer_order = ["entry", "core", "service", "infra", "other"]
+        spacing_x = 450
+        spacing_y = 400
+        
+        current_y = 0
+        for layer_name in layer_order:
+            files_in_layer = layers[layer_name]
+            if not files_in_layer:
+                continue
+                
+            # 所有层级（包括 OTHER）均保持单行横向排列，以保证连线清晰
+            for x_idx, (file, rel_path, full_path) in enumerate(files_in_layer):
+                node_id = rel_path.replace("/", "_")
+                file_to_id[rel_path] = node_id
+                responsibility = self._get_docstring(full_path)
+                
+                self.nodes.append({
+                    "id": node_id,
+                    "type": "text",
+                    "text": f"【{layer_name.upper()}】\n{file}\n{rel_path}\n\n{responsibility}",
+                    "x": x_idx * spacing_x,
+                    "y": current_y,
+                    "width": 350,
+                    "height": 220,
+                    "color": self._get_color_by_layer(layer_name)
+                })
+            current_y += spacing_y
+
+        # 3. 建立连线 (添加降噪逻辑)
         for file, rel_path, full_path in all_files:
             from_id = file_to_id.get(rel_path)
             if from_id:
+                # 获取当前文件所属层级
+                from_layer = next((l for l, fs in layers.items() if any(f[1] == rel_path for f in fs)), "other")
+                
                 imports = self._get_imports(full_path)
                 for imp in imports:
                     for target_rel, to_id in file_to_id.items():
                         mod_path = target_rel.replace(".py", "").replace("/", ".")
                         if imp == mod_path or imp.startswith(mod_path + "."):
                             if from_id != to_id:
+                                # 【取消降噪】：显示所有连线，无论层级
+                                to_layer = next((l for l, fs in layers.items() if any(f[1] == target_rel for f in fs)), "other")
+                                
                                 edge_id = f"edge_{from_id}_{to_id}"
                                 if not any(e["id"] == edge_id for e in self.edges):
+                                    # 根据层级决定连线样式 (Obsidian Canvas JSON 不直接支持粗细，
+                                    # 但可以通过 label 和连线方向模拟重要性，或在 text 中记录。
+                                    # 针对当前应用，我们使用 label 来标注强度，并根据重要性调整 color)
+                                    
+                                    style_label = ""
+                                    edge_color = "0" # 默认
+                                    
+                                    if from_layer in ["entry", "core"] and to_layer in ["core", "service"]:
+                                        style_label = "【核心调用】"
+                                        edge_color = "1" # 红色线表示核心
+                                    elif to_layer == "other":
+                                        style_label = "--- 次要 ---"
+                                        edge_color = "5" # 青色虚线感
+                                    
                                     self.edges.append({
                                         "id": edge_id,
                                         "fromNode": from_id,
                                         "fromSide": "bottom",
                                         "toNode": to_id,
-                                        "toSide": "top"
+                                        "toSide": "top",
+                                        "label": style_label,
+                                        "color": edge_color
                                     })
+
+    def _get_color_by_layer(self, layer_name):
+        colors = {
+            "entry": "1",    # 红
+            "core": "3",     # 黄
+            "service": "3",  # 黄
+            "infra": "2",    # 橙
+            "other": "5"     # 青
+        }
+        return colors.get(layer_name, "0")
 
     def _get_imports(self, path):
         """从文件中提取 import 语句。"""
