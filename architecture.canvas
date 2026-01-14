@@ -1,0 +1,955 @@
+{
+  "nodes": [
+    {
+      "id": "src_main.py",
+      "type": "text",
+      "text": "main.py\nsrc/main.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "src_reverse_gen.py",
+      "type": "text",
+      "text": "reverse_gen.py\nsrc/reverse_gen.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_core_canvas_engine.py",
+      "type": "text",
+      "text": "canvas_engine.py\nsrc/core/canvas_engine.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 400,
+      "width": 300,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "src_core_structure_mgr.py",
+      "type": "text",
+      "text": "structure_mgr.py\nsrc/core/structure_mgr.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 600,
+      "width": 300,
+      "height": 120,
+      "color": "3"
+    },
+    {
+      "id": "src_OpenManus-main_main.py",
+      "type": "text",
+      "text": "main.py\nsrc/OpenManus-main/main.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 800,
+      "width": 300,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "src_OpenManus-main_run_flow.py",
+      "type": "text",
+      "text": "run_flow.py\nsrc/OpenManus-main/run_flow.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 1000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_run_mcp.py",
+      "type": "text",
+      "text": "run_mcp.py\nsrc/OpenManus-main/run_mcp.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 1200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_run_mcp_server.py",
+      "type": "text",
+      "text": "run_mcp_server.py\nsrc/OpenManus-main/run_mcp_server.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 1400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_sandbox_main.py",
+      "type": "text",
+      "text": "sandbox_main.py\nsrc/OpenManus-main/sandbox_main.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 1600,
+      "width": 300,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "src_OpenManus-main_setup.py",
+      "type": "text",
+      "text": "setup.py\nsrc/OpenManus-main/setup.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 1800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_bedrock.py",
+      "type": "text",
+      "text": "bedrock.py\nsrc/OpenManus-main/app/bedrock.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 2000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_config.py",
+      "type": "text",
+      "text": "config.py\nsrc/OpenManus-main/app/config.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 2200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_exceptions.py",
+      "type": "text",
+      "text": "exceptions.py\nsrc/OpenManus-main/app/exceptions.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 2400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_llm.py",
+      "type": "text",
+      "text": "llm.py\nsrc/OpenManus-main/app/llm.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 2600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_logger.py",
+      "type": "text",
+      "text": "logger.py\nsrc/OpenManus-main/app/logger.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 2800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_schema.py",
+      "type": "text",
+      "text": "schema.py\nsrc/OpenManus-main/app/schema.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 3000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 3200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_base.py",
+      "type": "text",
+      "text": "base.py\nsrc/OpenManus-main/app/agent/base.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 3400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_browser.py",
+      "type": "text",
+      "text": "browser.py\nsrc/OpenManus-main/app/agent/browser.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 3600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_data_analysis.py",
+      "type": "text",
+      "text": "data_analysis.py\nsrc/OpenManus-main/app/agent/data_analysis.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 3800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_manus.py",
+      "type": "text",
+      "text": "manus.py\nsrc/OpenManus-main/app/agent/manus.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 4000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_mcp.py",
+      "type": "text",
+      "text": "mcp.py\nsrc/OpenManus-main/app/agent/mcp.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 4200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_react.py",
+      "type": "text",
+      "text": "react.py\nsrc/OpenManus-main/app/agent/react.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 4400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_sandbox_agent.py",
+      "type": "text",
+      "text": "sandbox_agent.py\nsrc/OpenManus-main/app/agent/sandbox_agent.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 4600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_swe.py",
+      "type": "text",
+      "text": "swe.py\nsrc/OpenManus-main/app/agent/swe.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 4800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent_toolcall.py",
+      "type": "text",
+      "text": "toolcall.py\nsrc/OpenManus-main/app/agent/toolcall.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 5000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_agent___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/agent/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 5200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_daytona_sandbox.py",
+      "type": "text",
+      "text": "sandbox.py\nsrc/OpenManus-main/app/daytona/sandbox.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 5400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_daytona_tool_base.py",
+      "type": "text",
+      "text": "tool_base.py\nsrc/OpenManus-main/app/daytona/tool_base.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 5600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_flow_base.py",
+      "type": "text",
+      "text": "base.py\nsrc/OpenManus-main/app/flow/base.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 5800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_flow_flow_factory.py",
+      "type": "text",
+      "text": "flow_factory.py\nsrc/OpenManus-main/app/flow/flow_factory.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 6000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_flow_planning.py",
+      "type": "text",
+      "text": "planning.py\nsrc/OpenManus-main/app/flow/planning.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 6200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_flow___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/flow/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 6400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_mcp_server.py",
+      "type": "text",
+      "text": "server.py\nsrc/OpenManus-main/app/mcp/server.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 6600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_mcp___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/mcp/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 6800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_browser.py",
+      "type": "text",
+      "text": "browser.py\nsrc/OpenManus-main/app/prompt/browser.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 7000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_manus.py",
+      "type": "text",
+      "text": "manus.py\nsrc/OpenManus-main/app/prompt/manus.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 7200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_mcp.py",
+      "type": "text",
+      "text": "mcp.py\nsrc/OpenManus-main/app/prompt/mcp.py\n\nPrompts for the MCP Agent.",
+      "x": 0,
+      "y": 7400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_planning.py",
+      "type": "text",
+      "text": "planning.py\nsrc/OpenManus-main/app/prompt/planning.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 7600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_swe.py",
+      "type": "text",
+      "text": "swe.py\nsrc/OpenManus-main/app/prompt/swe.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 7800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_toolcall.py",
+      "type": "text",
+      "text": "toolcall.py\nsrc/OpenManus-main/app/prompt/toolcall.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 8000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt_visualization.py",
+      "type": "text",
+      "text": "visualization.py\nsrc/OpenManus-main/app/prompt/visualization.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 8200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_prompt___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/prompt/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 8400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_sandbox_client.py",
+      "type": "text",
+      "text": "client.py\nsrc/OpenManus-main/app/sandbox/client.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 8600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_sandbox___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/sandbox/__init__.py\n\nDocker Sandbox Module\n\nProvides secure containerized execution environment with resource limits\nand isolation for running untrusted code.",
+      "x": 0,
+      "y": 8800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_sandbox_core_exceptions.py",
+      "type": "text",
+      "text": "exceptions.py\nsrc/OpenManus-main/app/sandbox/core/exceptions.py\n\nException classes for the sandbox system.\n\nThis module defines custom exceptions used throughout the sandbox system to\nhandle various error conditions in a structured way.",
+      "x": 0,
+      "y": 9000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_sandbox_core_manager.py",
+      "type": "text",
+      "text": "manager.py\nsrc/OpenManus-main/app/sandbox/core/manager.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 9200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_sandbox_core_sandbox.py",
+      "type": "text",
+      "text": "sandbox.py\nsrc/OpenManus-main/app/sandbox/core/sandbox.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 9400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_sandbox_core_terminal.py",
+      "type": "text",
+      "text": "terminal.py\nsrc/OpenManus-main/app/sandbox/core/terminal.py\n\nAsynchronous Docker Terminal\n\nThis module provides asynchronous terminal functionality for Docker containers,\nallowing interactive command execution with timeout control.",
+      "x": 0,
+      "y": 9600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_ask_human.py",
+      "type": "text",
+      "text": "ask_human.py\nsrc/OpenManus-main/app/tool/ask_human.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 9800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_base.py",
+      "type": "text",
+      "text": "base.py\nsrc/OpenManus-main/app/tool/base.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 10000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_bash.py",
+      "type": "text",
+      "text": "bash.py\nsrc/OpenManus-main/app/tool/bash.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 10200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_browser_use_tool.py",
+      "type": "text",
+      "text": "browser_use_tool.py\nsrc/OpenManus-main/app/tool/browser_use_tool.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 10400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_computer_use_tool.py",
+      "type": "text",
+      "text": "computer_use_tool.py\nsrc/OpenManus-main/app/tool/computer_use_tool.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 10600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_crawl4ai.py",
+      "type": "text",
+      "text": "crawl4ai.py\nsrc/OpenManus-main/app/tool/crawl4ai.py\n\nCrawl4AI Web Crawler Tool for OpenManus\n\nThis tool integrates Crawl4AI, a high-performance web crawler designed for LLMs and AI agents,\nproviding fast, precise, and AI-ready data extraction with clean Markdown generation.",
+      "x": 0,
+      "y": 10800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_create_chat_completion.py",
+      "type": "text",
+      "text": "create_chat_completion.py\nsrc/OpenManus-main/app/tool/create_chat_completion.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 11000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_file_operators.py",
+      "type": "text",
+      "text": "file_operators.py\nsrc/OpenManus-main/app/tool/file_operators.py\n\nFile operation interfaces and implementations for local and sandbox environments.",
+      "x": 0,
+      "y": 11200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_mcp.py",
+      "type": "text",
+      "text": "mcp.py\nsrc/OpenManus-main/app/tool/mcp.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 11400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_planning.py",
+      "type": "text",
+      "text": "planning.py\nsrc/OpenManus-main/app/tool/planning.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 11600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_python_execute.py",
+      "type": "text",
+      "text": "python_execute.py\nsrc/OpenManus-main/app/tool/python_execute.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 11800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_str_replace_editor.py",
+      "type": "text",
+      "text": "str_replace_editor.py\nsrc/OpenManus-main/app/tool/str_replace_editor.py\n\nFile and directory manipulation tool with sandbox support.",
+      "x": 0,
+      "y": 12000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_terminate.py",
+      "type": "text",
+      "text": "terminate.py\nsrc/OpenManus-main/app/tool/terminate.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 12200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_tool_collection.py",
+      "type": "text",
+      "text": "tool_collection.py\nsrc/OpenManus-main/app/tool/tool_collection.py\n\nCollection classes for managing multiple tools.",
+      "x": 0,
+      "y": 12400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_web_search.py",
+      "type": "text",
+      "text": "web_search.py\nsrc/OpenManus-main/app/tool/web_search.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 12600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/tool/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 12800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_chart_visualization_chart_prepare.py",
+      "type": "text",
+      "text": "chart_prepare.py\nsrc/OpenManus-main/app/tool/chart_visualization/chart_prepare.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 13000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_chart_visualization_data_visualization.py",
+      "type": "text",
+      "text": "data_visualization.py\nsrc/OpenManus-main/app/tool/chart_visualization/data_visualization.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 13200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_chart_visualization_python_execute.py",
+      "type": "text",
+      "text": "python_execute.py\nsrc/OpenManus-main/app/tool/chart_visualization/python_execute.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 13400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_chart_visualization___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/tool/chart_visualization/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 13600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_chart_visualization_test_chart_demo.py",
+      "type": "text",
+      "text": "chart_demo.py\nsrc/OpenManus-main/app/tool/chart_visualization/test/chart_demo.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 13800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_chart_visualization_test_report_demo.py",
+      "type": "text",
+      "text": "report_demo.py\nsrc/OpenManus-main/app/tool/chart_visualization/test/report_demo.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 14000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_sandbox_sb_browser_tool.py",
+      "type": "text",
+      "text": "sb_browser_tool.py\nsrc/OpenManus-main/app/tool/sandbox/sb_browser_tool.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 14200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_sandbox_sb_files_tool.py",
+      "type": "text",
+      "text": "sb_files_tool.py\nsrc/OpenManus-main/app/tool/sandbox/sb_files_tool.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 14400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_sandbox_sb_shell_tool.py",
+      "type": "text",
+      "text": "sb_shell_tool.py\nsrc/OpenManus-main/app/tool/sandbox/sb_shell_tool.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 14600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_sandbox_sb_vision_tool.py",
+      "type": "text",
+      "text": "sb_vision_tool.py\nsrc/OpenManus-main/app/tool/sandbox/sb_vision_tool.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 14800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_search_baidu_search.py",
+      "type": "text",
+      "text": "baidu_search.py\nsrc/OpenManus-main/app/tool/search/baidu_search.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 15000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_search_base.py",
+      "type": "text",
+      "text": "base.py\nsrc/OpenManus-main/app/tool/search/base.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 15200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_search_bing_search.py",
+      "type": "text",
+      "text": "bing_search.py\nsrc/OpenManus-main/app/tool/search/bing_search.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 15400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_search_duckduckgo_search.py",
+      "type": "text",
+      "text": "duckduckgo_search.py\nsrc/OpenManus-main/app/tool/search/duckduckgo_search.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 15600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_search_google_search.py",
+      "type": "text",
+      "text": "google_search.py\nsrc/OpenManus-main/app/tool/search/google_search.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 15800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_tool_search___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/tool/search/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 16000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_utils_files_utils.py",
+      "type": "text",
+      "text": "files_utils.py\nsrc/OpenManus-main/app/utils/files_utils.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 16200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_utils_logger.py",
+      "type": "text",
+      "text": "logger.py\nsrc/OpenManus-main/app/utils/logger.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 16400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_app_utils___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/app/utils/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 16600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_examples_benchmarks___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/examples/benchmarks/__init__.py\n\nOpenManus benchmark system for standardized agent evaluation.",
+      "x": 0,
+      "y": 16800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_protocol_a2a___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/protocol/a2a/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 17000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_protocol_a2a_app_agent.py",
+      "type": "text",
+      "text": "agent.py\nsrc/OpenManus-main/protocol/a2a/app/agent.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 17200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_protocol_a2a_app_agent_executor.py",
+      "type": "text",
+      "text": "agent_executor.py\nsrc/OpenManus-main/protocol/a2a/app/agent_executor.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 17400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_protocol_a2a_app_main.py",
+      "type": "text",
+      "text": "main.py\nsrc/OpenManus-main/protocol/a2a/app/main.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 17600,
+      "width": 300,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "src_OpenManus-main_protocol_a2a_app___init__.py",
+      "type": "text",
+      "text": "__init__.py\nsrc/OpenManus-main/protocol/a2a/app/__init__.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 17800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_tests_sandbox_test_client.py",
+      "type": "text",
+      "text": "test_client.py\nsrc/OpenManus-main/tests/sandbox/test_client.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 18000,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_tests_sandbox_test_docker_terminal.py",
+      "type": "text",
+      "text": "test_docker_terminal.py\nsrc/OpenManus-main/tests/sandbox/test_docker_terminal.py\n\nTests for the AsyncDockerizedTerminal implementation.",
+      "x": 0,
+      "y": 18200,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_tests_sandbox_test_sandbox.py",
+      "type": "text",
+      "text": "test_sandbox.py\nsrc/OpenManus-main/tests/sandbox/test_sandbox.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 18400,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_OpenManus-main_tests_sandbox_test_sandbox_manager.py",
+      "type": "text",
+      "text": "test_sandbox_manager.py\nsrc/OpenManus-main/tests/sandbox/test_sandbox_manager.py\n\n未定义职责描述",
+      "x": 0,
+      "y": 18600,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    },
+    {
+      "id": "src_services_test_service.py",
+      "type": "text",
+      "text": "test_service.py\nsrc/services/test_service.py\n\nTest Service\n\nResponsibility: A new service generated via Canvas logic.",
+      "x": 0,
+      "y": 18800,
+      "width": 300,
+      "height": 120,
+      "color": "2"
+    }
+  ],
+  "edges": []
+}
